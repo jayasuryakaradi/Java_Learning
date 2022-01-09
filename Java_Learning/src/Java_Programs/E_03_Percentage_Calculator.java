@@ -8,15 +8,8 @@ public class E_03_Percentage_Calculator {
 		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		
-		int sum=0;
-		
-		for(int i=0;i<5;i++) {
-		
-			sum=sum+input.nextInt();
-			
-		}
-		
-		System.out.println("Avg: "+sum/5);
+		String name="Jayasurya";
+		System.out.println(name.replaceAll("a","o"));
 	}
 
 }
